@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>금고</title>
+    <script src="socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1></h1>
+    <div class="safe">
+        <div>
+            <div class="door">
+                <div class="rim"></div>
+                <div class="hub"></div>
+                <div class="spoke"></div>
+                <div class="spoke" style="rotate: 120deg;"></div>
+                <div class="spoke" style="rotate: 240deg;"></div>
+            </div>
+            <div class="dials">
+                <div class="dial" id="dial1"></div>
+                <div class="dial" id="dial2"></div>
+                <div class="dial" id="dial3"></div>
+                <div class="arrow" id="arrow1"></div>
+                <div class="arrow" id="arrow2"></div>
+                <div class="arrow" id="arrow3"></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
